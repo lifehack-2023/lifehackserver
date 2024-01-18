@@ -22,6 +22,12 @@ app.get('/:filename?',function( req, res ){
 });
 
 
+// TODO:
+// app.post()
+
+/// app.all();
+
+
 
 app.listen(3000, function(){
     console.log(` The server is running on http://localhost:3000`);
